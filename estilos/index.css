@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    
+    padding: 2% 0;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align:center;
+    color: #fff;
+    background: #000000;
+    font-family: impact;
+    font-size: 36px;
+    line-height: 70%;
+    letter-spacing: 4px;
+    text-shadow: -2px -2px 0px #000000, 2px -2px 0px #000000, -2px 2px 0px #000000, 2px 2px 0px #000000;}
+
+#listado{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#funciones{
+    margin-top: 5%;
+}
+
+.container-hijo{
+    margin: 5%;
+    padding: 3%;
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.7); 
+    -webkit-box-shadow: 10px 10px 72px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 72px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 72px 10px rgba(0,0,0,0.75);
+}
+
+.table{
+    color: #000;
+    text-decoration: solid;
+    font-style: italic;
+}
